@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-const accountSid = "AC6c8a457138bc29bf5a6a97766a1c378a";
-const authToken = "0f491d8ac9af3870a4618db60621419a";
-const serviceId = "VA3376fcc6ef823e4961f1a690a328f12d";
+const accountSid = "";
+const authToken = "";
+const serviceId = "";
 
 const client = require("twilio")(accountSid, authToken);
 
